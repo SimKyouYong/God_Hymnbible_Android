@@ -3,6 +3,7 @@ package co.kr.god_bible;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(co.kr.bible_renewal.R.id.start_btn).setOnClickListener(btnListener);
         findViewById(co.kr.bible_renewal.R.id.stop_btn).setOnClickListener(btnListener);
 
+        Log.i("", "테스트 커밋!");
 
     }
 
